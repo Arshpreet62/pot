@@ -5,7 +5,7 @@ html,body {
     background-color:#fdf1ec;
 }
 .web {
-    width: 100vh;
+    
     height: 100vh;
     background-color: #fdf1ec;
     display: flex;
@@ -16,8 +16,8 @@ main {
     background-color: white;
     display: flex;
     box-sizing: border-box;
-    width: 50%;
-    height: 30%;
+    width: 50vh;
+    height: 30vh;
     box-sizing: border-box;
     box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -89,3 +89,15 @@ h3 {
     font-family: 'Suranna', serif;
     color: black;
 }
+@media (max-width: 320px) {
+    main {
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
